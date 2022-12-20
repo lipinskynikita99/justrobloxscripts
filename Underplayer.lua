@@ -4307,7 +4307,7 @@ local A_1 = getrenv()._G.Pass
 end
 end)
 game:GetService("UserInputService").InputBegan:Connect(function(inp)
-    if inp.KeyCode == Enum.KeyCode.Zero then
+    if inp.KeyCode == Enum.KeyCode.E then
 local A_1 = {
                         [1] = getrenv()._G.Pass,
                         [2] = "Chatted",
