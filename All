@@ -1,0 +1,13 @@
+if game.PlaceId == 6441847031 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lipinskynikita99/justrobloxscripts/main/HITBOX%20SCRIPT.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lipinskynikita99/justrobloxscripts/main/chaos.txt", true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+wait(0.1)
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Loaded!"; Text = "by lipinskiinikita"; Duration = 10; Button1 = "Ok"; })
+
+if game.PlaceId == 6516141723 then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+wait(0.1)
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Loaded!"; Text = "by lipinskiinikita"; Duration = 15; Button1 = "Ok"; })
