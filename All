@@ -1,7 +1,5 @@
 if game.PlaceId == 6441847031 then
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lipinskynikita99/justrobloxscripts/main/HITBOX%20SCRIPT.lua", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lipinskynikita99/justrobloxscripts/main/chaos.txt", true))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 elseif game.PlaceId == 6516141723 then
 
