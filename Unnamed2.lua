@@ -152,7 +152,7 @@ end)
 wait(0.1)
 local mouse = game.Players.LocalPlayer:GetMouse()
 mouse.KeyDown:Connect(function(k) 
-    if k == "3" then
+    if k == "c" then
 		local A_1 = 
 			{
 				[1] = getrenv()._G.Pass,
@@ -207,8 +207,7 @@ if k == "b" then
 			{
 				[1] = getrenv()._G.Pass,
 				[2] = "Chatted", 
-				[3] = [[ [ The Imitator ] *
--GodMode lock on- ]], 
+				[3] = [[/Godmode lock = true]], 
 				[4] = Color3.new(1,1,1)
 			}
 		local Event = game:GetService("ReplicatedStorage").Remotes.Events
@@ -244,7 +243,7 @@ local A_1 = {
                         [1] = getrenv()._G.Pass,
                         [2] = "Chatted",
                         [3] = [[/Fling]],
-                        [4] = Color3.new(1, 0, 0)
+                        [4] = Color3.new(1, 1, 1)
                     }
                     local Event = game:GetService("ReplicatedStorage").Remotes.Events
                     Event:FireServer(A_1)
@@ -288,11 +287,3 @@ game.Workspace.tp:Destroy()
 game.Workspace.FlignPart:Destroy()
     end
                end)
-
-wait(0.1)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Loaded!";
-    Text = "Enjoy";
-    Duration = 7;
-    Button1 = "Ok";
-})
